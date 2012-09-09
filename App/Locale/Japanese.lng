@@ -1,0 +1,106 @@
+[tray]
+information=情報
+pref=設定
+sendto=
+theme=
+pause=ポーズ
+refresh=eXpresso のリロード
+quit=終了
+upd=アップデート
+exec=タイプ＆ラン
+
+[pref]
+language=表示言語の選択
+glass=
+driveassoc=
+associations=
+autoassoc=新しい拡張子は Host で開く
+dblclickset=ダブル クリックの設定
+configassoc=関連付けの設定
+configapps=アプリケーション パスの設定
+configwin=ウィンドウ モニターの設定
+confedit=設定ファイルの編集
+
+[sendto]
+reconvey=転送
+linksfolder=リンク フォルダを開く
+sendtofolder="Send To" フォルダを開く
+
+[messages]
+runfile=指定アプリケーションで選択ファイルを実行しますか？
+filenotassociated=".$extension"ファイルは eXpresso に登録されていません。`n関連付けの設定を行いますか？`n（EXE、COM ファイルの場合は推奨できません）
+
+[shared]
+btnbrowse=...
+btnOK=OK
+btnquit=閉じる
+alltypes=全てのファイル
+typeapp=アプリケーション
+extexists=".$extension"ファイルは既に登録されています。`n関連付けを変更しますか？
+assocboxtitle=eXpresso | ".$extension" ファイルを開くアプリケーションの選択
+appnotfound=".$extension" ファイルに関連付けられた`n アプリケーション "$prog" が見つかりません。`n関連付けを変更しますか？
+filenotfound=指定ファイル "$file" が見つかりません
+
+[dblclickgui]
+labelfast=高速
+labelslow=低速
+buttontest=このボタンを`nダブルクリックして`n感度設定と`n実際の使用感を`nチェックしてください。
+oneclicktt=シングル クルックと認識 :`n- 所要時間 : $deltaClickms`n- 許容時間 : $speedms
+dblclicktt=ダブル クリックと認識！
+btnvalidate=適用
+btncancel=中止
+dblclicktitlegui=eXpresso | ダブル クリックの設定
+textdc=ダブル クリックの感度
+
+[extgui]
+extguispltext=拡張子リスト作成中！...
+boxadd=関連付けの追加
+textadd=拡張子名を入力してください。「.txt」のようにドットが必要です。また、関連付けしたい拡張子を持つ適当なファイルを「...」ボタンから選択することもできます:
+btnassoc=登録
+boxapps=アプリケーションとの関連付け
+boxmain=メイン アプリケーション
+boxsecondary=サブ アプリケーション
+textassoc=eXpresso による変更を行わず、本来の関連付けを使用する場合は host と入力してください。そして OK ボタンで設定を適用します。
+boxext=拡張子リスト
+delext=拡張子削除
+delassoc=関連付け解除
+exttitlegui=eXpresso | 関連付けの設定
+titleselectfile=eXpresso | 関連付けるファイルの選択
+errorext=拡張子の追加に失敗
+nofile=関連付けるファイルが選択されていません
+noext=選択ファイルは拡張子がありません。`n関連付けしますか？
+noapp=関連付けするアプリケーションを選択してください。
+nullType=*拡張子なし
+
+[appgui]
+appguispltext=アプリケーション リスト作成中！お待ちください。...
+boxapps=対象アプリケーション
+lblabspath=絶対パス:
+lblrelpath=相対パス:
+apptitlegui=eXpresso | アプリケーション パスの設定
+titleselectapp=eXpresso | 関連付けるアプリケーションの選択
+spashchgmnt=パスの変更中...
+splashfin=完了！
+boxappspath=選択アプリケーションのパス
+howto=すでに関連付けされているアプリケーション パスの変更は、左のリスト中のアプリケーション名をクリックし、「...」ボタンで新しいパスを選択してください。そして  OK ボタンで変更を保存します。
+
+[wingui]
+wintitlegui=eXpresso | ウィンドウ モニターの設定
+lblwinclass=Ahk_class:
+delmanagedwin=監視ウィンドウの削除
+boxwins=監視ウィンドウ
+boxwinsclass=監視ウィンドウの Ahk Class 
+noclass=クラスが指定されていません！
+alreadymanaged= $window は既に登録されています！
+helpout=モニターするウィンドウの追加は、Shift キーと Win キーを同時に押下しながら、選択ウィンドウのタイトルバーをクリックしてください。「ahk_class」がわかっている場合は「|」（パイプ）で区切ることによって複数のウィンドウをまとめて登録できます。`n`n作業後は OK ボタンをクリックして変更を保存してください。
+
+[rungui]
+runtitlegui=eXpresso | タイプ＆ラン
+txtrun=実行
+txtalt=実行（サブ/ホスト）
+ddoptions=常に最前面|実行後に最小化|実行後に閉じる
+keywordprompt=$app に使用するキーワードを入力
+keywordtitle=eXpresso | キーワード
+runfiletitle=eXpresso | 起動するファイルの選択
+makekeyword=キーワードの登録
+nofile=実行するファイルが入力されていません！

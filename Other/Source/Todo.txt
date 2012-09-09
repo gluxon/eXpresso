@@ -1,0 +1,15 @@
+ToDo:
+
+- Add support for webapps (google docs, etc)
+See here: http://lifehacker.com/software/web-as-desktop/hack-attack-desktopintegrated-internet-office-188199.php
+
+- create special conditions for handling exe and com files
+
+- make Run GUI less ugly
+
+- find a way to refresh the group of monitored windows after deleting one, 
+rather than making the user refresh CAFE to finalize any window deletions
+
+- more translations
+
+- add capabilities of Convey

@@ -1,0 +1,36 @@
+eXpresso Instructions
+
+While active, eXpresso allows the user to associate files to applications on a portable device such as
+a USB flash drive or an iPod in disk mode, with a standard double click. No permanent modifications
+will be made to the host system.
+
+To add an association, make sure eXpresso is running, and double click on a file. If eXpresso does
+not yet have an association for that filetype, it will then display a window asking which app you wish
+to associate it with. For apps in the PortableApps Format, the filetype should be associated with the
+launcher, not the base app.
+
+All associations are recorded as relative paths in an ini file in the eXpresso directory. Therefore,
+eXpresso is completely portable and can be considered stealth as well.
+
+Right-clicking the eXpresso system tray icon will open a menu. As an alternative, you can press
+Win+Alt, then right click anywhere. From here, you can access the instructions (this file), a copy of
+the license, and graphical interfaces to add and modify all of eXpresso's settings
+
+A new feature in eXpresso 1.3 and above allows you to add a "Send to" shortcut to the Windows
+Shell. To do this, copy the links to Data\Links, and run eXpresso. You can then access them by right
+clicking on a file, and selecting the "Send to" context menu.
+
+eXpresso is distributed under the GNU General Public License v3.
+
+Hotkeys for eXpresso
+	* Win + Alt + Right Click = Open up Tray Menu (Flying Menu)
+	* Shift + Ctrl + Left Click = Associate Main App with extension
+   	* Alt + Ctrl + Left Click = Associate Alternative App with extension
+  	* Win + Alt + p = Pause eXpresso
+	* Win + Alt + m = Configure Mouse settings
+	* Win + Alt + x = Configure Extension settings
+	* Win + Alt + a = Configure App settings
+	* Win + Alt + w = Configure Window settings
+	* Win + Alt + r = Open eXpresso Run Dialogue
+	* Shift + Win + Left Click = Add window to monitored window list
+	* Win + Alt + Escape = exit eXpresso

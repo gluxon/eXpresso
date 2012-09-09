@@ -1,0 +1,106 @@
+[tray]
+information=Información
+pref=Preferencias
+sendto=
+theme=
+pause=Pausa
+refresh=Reiniciar eXpresso
+quit=salir
+upd=Actualizar
+exec=Escribe y corre
+
+[pref]
+language=Selección de Lenguage
+glass=
+driveassoc=
+associations=
+autoassoc=Auto Asociar Nuevo al Host
+dblclickset=Opciones de Doble click
+configassoc=Configuración de Extensión
+configapps=Configuración de la ruta de la Aplicación
+configwin=Configuración de Ventana Monitoreada
+confedit=Editar archivo ini de configuración
+
+[sendto]
+reconvey=
+linksfolder=
+sendtofolder=
+
+[messages]
+runfile=¿Deseas ejecutar el archivo`n seleccionado en la aplicación seleccionada?
+filenotassociated=Los archivos $extension todavía no son reconocidos por eXpresso`n¿Quieres establecer una asociación para ellos?`n(no recomendado para archivos exe y com)
+
+[shared]
+btnbrowse=...
+btnOK=OK
+btnquit=Cerrar
+alltypes=Todos los Archivos
+typeapp=Aplicación
+extexists=¡Los archivos $extension ya está administrados!`n¿Quieres cambiar la asociación?
+assocboxtitle=eXpresso | Escije la aplicación que abrirá los archivos $extension
+appnotfound=No se encuentra la aplicación $prog`nque debe abrir los archivos $extension .`n¿Deseas actualizar la asociación?
+filenotfound=No se encuentra el archivo especificado, $file
+
+[dblclickgui]
+labelfast=Rápido
+labelslow=Lento
+buttontest=Este botón`nte permite`nprobar la sensibilidad`na la velocidad escogida`nhaciendo doble click
+oneclicktt=click :`n- tiempo restante: $deltaClickms`n- tiempo permitido: $speedms
+dblclicktt=¡Doble-click!
+btnvalidate=Validar
+btncancel=Cancelar
+dblclicktitlegui=eXpresso | Opciones de Doble click
+textdc=Doble click
+
+[extgui]
+extguispltext=Creando la lista de extensiones...
+boxadd=Agregar una asociación
+textadd=También puede usar el botón ... para buscar un archivo de la extensión deseada, o puedes escribir la extensión deseada, comenzando por el punto.
+btnassoc=Asociar
+boxapps=Aplicaciones Asociadas
+boxmain=Aplicación Principal
+boxsecondary=Aplicación Alternativa
+textassoc=Para usar el programa de la computadora anfitriona, escribe "host" en el campo. Debes presionar OK para que la asociación se haga efectiva
+boxext=Lista de Extensiones
+delext=Borrar Extensión
+delassoc=Borrar Asociación
+exttitlegui=eXpresso | Configuración de Asociación de Extensión
+titleselectfile=eXpresso | Selecciona un archivo a asociar
+errorext=Error al añadir la extensión
+nofile=No seleccionaste archivo a asociar
+noext=El archivo seleccionado no tiene extensión`n¿Asociar de todas maneras?
+noapp=Porfavor selecciona una aplicación antes`nde intentar crear esta asociación.
+nullType=*Sin Extensión
+
+[appgui]
+appguispltext=Creando la lista de Aplicaciones...
+boxapps=Aplicaciones Asociadas
+lblabspath=Ruta Absoluta:
+lblrelpath=Ruta Relativa:
+apptitlegui=eXpresso | Configuración de la Ruta de la Aplicación
+titleselectapp=eXpresso | Selecciona una aplicación para esta asociación
+spashchgmnt=Modificando la Ruta...
+splashfin=¡Terminado!
+boxappspath=Ruta a la Aplicación seleccionada
+howto=Para cambiar la ruta de una aplicación asociada, escoja el nombre de la aplicación en la caja de la izquierda, luego presione en ... para buscar la nueva ruta. Presione OK para guardar la nueva ruta.
+
+[wingui]
+wintitlegui=eXpresso | Configuración de ventana monitoreada
+lblwinclass=Ahk_class:
+delmanagedwin=Borrar Ventana Administrada
+boxwins=Ventanas Administradas
+boxwinsclass=Ahk Class de la ventana adminsitrada
+noclass=¡Class No Seleccionado!
+alreadymanaged=¡La ventana $window ya está administrada!
+helpout=Para agregar otra ventana para que eXpresso la administre, mantenga presionado Shift + Win y haga click sobre la barra de título de la ventana, o si ya conoce el ahk_class, puede agregar multiples ventanas escribiendo el nombre de class completo seguido de una barra | .`n`nDebes presionar OK para aplicar los cambios.
+
+[rungui]
+runtitlegui=eXpresso | Escribe y Corre
+txtrun=Ejecutar
+txtalt=Ejecutar Alternativo
+ddoptions=Mantenerme arriba|Minimizame luego de ejecutar|Cierrame luego de ejecutar
+keywordprompt=Ingresa una tecla rápida para $app
+keywordtitle=eXpresso | Tecla Rápida
+runfiletitle=eXpresso | Selecciona el archivo a ejecutar
+makekeyword=Crear Tecla Rápida
+nofile=Archivo a ejecutar no seleccionado

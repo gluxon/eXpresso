@@ -1,0 +1,110 @@
+[tray]
+information=Information
+pref=Preferences
+sendto=Convey
+theme=Theme
+pause=Pause
+refresh=Refresh eXpresso
+quit=Quit
+upd=Update
+exec=Type And Run
+
+[info]
+instructions=Instructions
+license=License
+
+[pref]
+language=Language Choice
+glass=Enable Glass
+driveassoc=Associate Only On Drive
+associations=Associations Config
+autoassoc=Auto Associate New To Host
+dblclickset=Double-click Settings
+configassoc=Extension Configuration
+configapps=Application Path Configuration
+configwin=Monitored Window Configuration
+confedit=Edit Configuration ini File
+
+[sendto]
+reconvey=ReConvey
+linksfolder=Open Links Folder
+sendtofolder=Open Send To Folder
+
+[messages]
+runfile=Would you like to run the selected`nfile in the selected application?
+filenotassociated=$extension files are not yet recognised by eXpresso.`nDo you want to set an association for them ?`n(not recommended for exe and com files)
+
+[shared]
+btnbrowse=...
+btnOK=OK
+btnquit=Close
+alltypes=All Files
+typeapp=Application
+extexists=$extension files are already managed!`nWould you like to change the association?
+assocboxtitle=eXpresso | Choose the application that will open $extension files
+appnotfound=The application $prog`nthat should open $extension files was not found.`nDo you wish to update the association?
+filenotfound=The specified file, $file, cannot be found
+
+[dblclickgui]
+labelfast=Fast
+labelslow=Slow
+buttontest=This button`nallows you`nto test sensitivity`nat the chosen speed`nby double-clicking it
+oneclicktt=Single-click :`n- elapsed time : $deltaClickms`n- allowed time : $speedms
+dblclicktt=Double-click!
+bntvalidate=Validate
+bntcancel=Cancel
+dblclicktitlegui=eXpresso | Double-click Settings
+textdc=Double-Click
+
+[extgui]
+extguispltext=Extension List Creation In Progress...
+boxadd=Add an association
+textadd=You can either use the ... button to browse for a file with the desired extension, or you can type the desired extension, beginning with the dot.
+btnassoc=Associate
+boxapps=Associated Applications
+boxmain=Main Application
+boxsecondary=Alternative Application
+textassoc=To use the software on the host computer, type host in the field. You must click OK for the association to be applied
+boxext=Extension List
+delext=Delete Extension
+delassoc=Delete Association
+exttitlegui=eXpresso | Extension Association Configuration
+titleselectfile=eXpresso | Select a file to associate
+errorext=Error while adding the extension
+nofile=No file selected to associate
+noext=Selected file does not have an extension`nAssociate anyway?
+noapp=Please select an application before`nattempting to create this association.
+nullType=*No Extension
+
+[appgui]
+appguispltext=Application List Creation in Progress...
+boxapps=Associated Applications
+lblabspath=Absolute Path:
+lblrelpath=Relative Path:
+apptitlegui=eXpresso | Application Path Configuration
+titleselectapp=eXpresso | Select an application for this association
+spashchgmnt=Path modification in progress...
+splashfin=Finished!
+boxappspath=Path To Selected Application
+howto=To change the path of an associated application, click the application name in the box on the left, then click ... to browse to the new path. Click OK to save the new path.
+
+[wingui]
+wintitlegui=eXpresso | Monitored Window Configuration
+lblwinclass=Ahk_class:
+delmanagedwin=Delete Managed Window
+boxwins=Managed Windows
+boxwinsclass=Ahk Class of Managed Window
+noclass=No Class Selected!
+alreadymanaged=The window $window is already managed!
+helpout=To add another window for eXpresso to manage, hold Shift + Win and click the window's title bar, or if you already know the ahk_class, you can add multiple windows by typing the full class name followed by a pipe | .`n`nYou must click OK for changes to apply.
+
+[rungui]
+runtitlegui=eXpresso | Type And Run
+txtrun=Run
+txtalt=Run Alternative
+ddoptions=Keep Me On Top|Minimize Me After Run|Close Me After Run
+keywordprompt=Enter a keyword for $app
+keywordtitle=eXpresso | Keyword
+runfiletitle=eXpresso | Select File to Launch
+makekeyword=Create Keyword
+nofile=No file selected to run

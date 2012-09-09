@@ -1,0 +1,106 @@
+[tray]
+information=Informationen
+pref=Einstellungen
+sendto=
+theme=
+pause=Pause
+refresh=eXpresso neu laden
+quit=Beenden
+upd=Update
+exec=Ausführen
+
+[pref]
+language=Sprache wählen
+glass=
+driveassoc=
+associations=
+autoassoc=Auto Associate New To Host
+dblclickset=Doppelklick-Einstellungen
+configassoc=Erweiterungen bearbeiten
+configapps=Anwendungspfade bearbeiten
+configwin=Überwachte Fenster bearbeiten
+confedit=Konfigurationsdatei bearbeiten
+
+[sendto]
+reconvey=ReConvey
+linksfolder=Links Ordner öffnen
+sendtofolder=Senden an Ordner öffnen
+
+[messages]
+runfile=Möchten Sie die ausgewählte`nfile in der gewählten Anwendung öffnen?
+filenotassociated=$extension Dateien werden zur Zeit nicht durch eXpresso erkannt.`nMöchten Sie eine Zurodnung für sie erzeugen ?`n(Für exe und com Datein nicht empfohlen!)
+
+[shared]
+btnbrowse=...
+btnOK=OK
+btnquit=Schliessen
+alltypes=Alle Dateien
+typeapp=Anwendung
+extexists=$extension Datein sind bereits zugeordnet!`nMöchten Sie die Zuordnung ändern?
+assocboxtitle=eXpresso | Wählen Sie die Anwendung, die $extension Datein öffnen soll.
+appnotfound=Die Anwendung $prog`ndie $extension Dateien öffnen soll, wurde nicht gefunden.`nMöchten Sie die Zuordnung aktualisieren?
+filenotfound=Die gewünschte Datei, $file, wurde nicht gefunden.
+
+[dblclickgui]
+labelfast=Schnell
+labelslow=Langsam
+buttontest=Diese Schaltfläche`nerlaubt Ihnen`ndie Empfindlichkeit`nmit der gewählten Geschwindigkeit`nper Doppelklick zu testen
+oneclicktt=Einfachklick :`n- vergangene Zeit : $deltaClickms`n- erlaubte Zeit : $speedms
+dblclicktt=Doppelklick!
+btnvalidate=Prüfen
+btncancel=Abbrechen
+dblclicktitlegui=eXpresso | Doppelklick-Einstellungen
+textdc=Doppelklick
+
+[extgui]
+extguispltext=Erweiterungsübersicht wird geladen...
+boxadd=Zuordnung ergänzen
+textadd=Sie können den ... Knopf verwenden, um nach einer Datei mit der gewünschten Erweiterung zu suchen oder sie können diese, beginnend mit einem Punkt, selbst eintippen.
+btnassoc=Zuordnen
+boxapps=Zugeordnete Anwendungen
+boxmain=Hauptanwendung
+boxsecondary=Alternative Anwendung
+textassoc=Um die Software auf dem Host Computerzu nutzen, bitte "host" in das Feld tippen. Sie müssen auf "OK" klicken, damit die Zuordnung übernomen wird.
+boxext=Erweiterungsübersicht
+delext=Erweiterung löschen
+delassoc=Zuordnung löschen
+exttitlegui=eXpresso | Konfiguration der zugeordneten Erweiterungen 
+titleselectfile=eXpresso | Wählen Sie eine datei zur Zuordnung aus
+errorext=Fehler beim Hinzufügen der Zuordnung
+nofile=keine Datei zum Zuordnung ausgewählt
+noext=Ist für die ausgeählte Datei nicht bereits`neine erweiterung zugeordnet?
+noapp=Bitte wählen Sie erst eine Anwendung bevor`nSie versuchen diese Zuordnung zu erzeugen.
+nullType=*Keine Erweiterung
+
+[appgui]
+appguispltext=Anwendungliste wird geladen...
+boxapps=zugeordnete Anwendungen
+lblabspath=Absoluter Pfad:
+lblrelpath=Relativer Pfad:
+apptitlegui=eXpresso | Konfiguration Anwendungspfade
+titleselectapp=eXpresso | Wählen Sie eine Anwendung für diese Zuordnung
+spashchgmnt=Pfad wird bearbeitet...
+splashfin=Beendet!
+boxappspath=Pfad zur gewählten Anwendung
+howto=um den Pfad zur gewählten Anwendung zu ändern klicken Sie bitte auf den Anwendungsnamen in der Box auf der linken Seite, dann bitte "..." klicken, um den neuen Pfad zu suchen. Bitte "OK" klicken, um den neuen Pfad zu speichern.
+
+[wingui]
+wintitlegui=eXpresso | Konfiguration überwachter Fenster
+lblwinclass=Ahk_class:
+delmanagedwin=Verwaltes Fenster löschen
+boxwins=Verwaltete Fenster
+boxwinsclass=Ahk Class des verwalteten Fensters
+noclass=keine Class ausgewählt!
+alreadymanaged=Das Fenster $window wird beeits verwaltet!
+helpout=Um ein weiteres Fenster zur Verwaltung durch eXpresso zu ergänzen bitte, Shift + Win halten und auf die Titelleiste des Fensters klicken, oder (wenn Sie die ahk_class bereits kennen) können Sie mehrere Fenster durch eintippen des vollständigen Klassennamens gefolgt von einer Pipe | eingeben.`n`nSie müsssen auf "OK" klicken, damit die Änderungen übernommen werden.
+
+[rungui]
+runtitlegui=eXpresso | Ausführen
+txtrun=Ausführen
+txtalt=Alternative ausführen
+ddoptions=Immer im Vordergrund|nach Ausführen minimieren|nach Ausführen schliessen
+keywordprompt=Schlüsselwort für $app eingeben
+keywordtitle=eXpresso | Schlüsselwort
+runfiletitle=eXpresso | Datei zum Starten auswählen
+makekeyword=Schlüsselwort erstellen
+nofile=keine Datei zum Ausführen ausgewählt

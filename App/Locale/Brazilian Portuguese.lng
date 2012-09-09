@@ -1,0 +1,105 @@
+[tray]
+information=Informação
+pref=Preferências
+sendto=
+theme=
+pause=Pausar
+refresh=Recarregar eXpresso
+quit=Sair
+upd=Atualizar
+exec=Escrever e Executar
+
+[pref]
+language=Escolher Idioma
+glass=
+driveassoc=
+autoassoc=Criar novas associações automaticamente
+dblclickset=Configurações de clique duplo
+configassoc=Configuração de extensões
+configapps=Configuração da pasta do aplicativo
+configwin=Configuração das janelas monitoradas
+confedit=Editar o arquivo .ini de configurações
+
+[sendto]
+reconvey=Reenviar
+linksfolder=Abrir pasta de links
+sendtofolder=Abrir pasta Enviar para
+
+[messages]
+runfile=Você quer executar os arquivos`nselecionados nesse aplicativo?
+filenotassociated=Arquivos $extension ainda não são reconhecidos pelo eXpresso.`nDeseja criar uma associação para eles?`n(não recomendado para arquivos .exe e .com)
+
+[shared]
+btnbrowse=...
+btnOK=OK
+btnquit=Fechar
+alltypes=Todos os arquivos
+typeapp=Aplicativo
+extexists=Arquivos $extension já possuem associação!`nVocê gostaria de alterá-la?
+assocboxtitle=eXpresso | Escolha o aplicativo para abrir arquivos $extension
+appnotfound=O aplicativo $prog`nque deveria abrir arquivos $extension não foi enconrado.`nVocê gostaria de atualizar a asociação?
+filenotfound=O arquivo especificado, $file, não foi encontrado
+
+[dblclickgui]
+labelfast=Rápido
+labelslow=Lento
+buttontest=Este botão `npermite testar`na sensibilidade da`nvelocidade escolhida`nao fazer clique duplo
+oneclicktt=Clique simples:`n- tempo demorado: $deltaClickms`n- tempo permitido: $speedms
+dblclicktt=Clique duplo!
+btnvalidate=Aplicar
+btncancel=Cancelar
+dblclicktitlegui=eXpresso | Definições de clique duplo
+textdc=Clique duplo
+
+[extgui]
+extguispltext=Criação da lista de extensões em andamento...
+boxadd=Adicionar uma associação
+textadd=Use o botão "..." para procurar um arquivo com a extensão desejada, ou escreva a extensão desejada, começando com um ponto:
+btnassoc=Associar
+boxapps=Aplicativos associados
+boxmain=Aplicativo principal
+boxsecondary=Aplicativo alternativo
+textassoc=Para utilizar o software, digite o endereço na caixa de texto. Clique no botão OK para a associação ser aplicada.
+boxext=Lista de extensões
+delext=Eliminar extensão
+delassoc=Eliminar associação
+exttitlegui=Configuração de associação de extensões
+titleselectfile=Escolha um arquivo para associar
+errorext=Erro ao adicionar a extensão
+nofile=Nenhum arquivo escolhido para associar
+noext=O arquivo escolhido não tem extensão.`nAssociar na mesma?
+noapp=Por favor escolha um aplicativo antes`nde tentar criar a associação.
+nullType=*Sem extensão
+
+[appgui]
+appguispltext=Criação da lista de aplicativos em andamento...
+boxapps=Aplicativos associados
+lblabspath=Caminho absoluto:
+lblrelpath=Caminho relativo:
+apptitlegui=eXpresso | Configuração do caminho do aplicativo
+titleselectapp=Escolha um aplicativo para a associação
+spashchgmnt=Modificação do caminho em andamento...
+splashfin=Concluído!
+boxappspath=Caminho para o aplicativo escolhido
+howto=Para alterar o caminho de um aplicativo associado, clique no seu nome na caixa à esquerda, depois clique em "..." para procurar o novo caminho. Clique em OK para salvar o novo caminho.
+
+[wingui]
+wintitlegui=eXpresso | Configuração das janelas monitoradas
+lblwinclass=Classe Ahk:
+delmanagedwin=Eliminar janela gerenciada
+boxwins=Janelas gerenciadas
+boxwinsclass=Classe do Ahk da janela gerenciada
+noclass=Não foi escolhida nenhuma classe!
+alreadymanaged=A janela $window já é gerenciada!
+helpout=Para adicionar outra janela para o eXpresso gerenciar, pressione Shift + Win e selecione a barra de título da janela, ou se já sabe a classe ahk, pode adicionar várias janelas escrevendo o nome completo da classe seguida de uma barra vertical | `n`nClique em OK para as mudanças serem aplicadas.
+
+[rungui]
+runtitlegui=eXpresso | Escrever e Executar
+txtrun=Executar
+txtalt=Alternativa de execução
+ddoptions=Manter no topo|Minimizar após executar|Fechar após executar
+keywordprompt=Escreva uma palavra-chave para o $app
+keywordtitle=eXpresso | Palavra-chave
+runfiletitle=eXpresso | Selecionar arquivo para executar
+makekeyword=Criar palavra-chave
+nofile=Nenhum arquivo para executar

@@ -1,0 +1,111 @@
+[tray]
+information=Informations
+pref=Préférences
+sendto=
+theme=
+pause=Pause
+restart=Actualiser eXpresso
+quit=Quitter
+upd=Mettre à jour
+exec=Exécuter
+
+[info]
+instructions=Instructions
+license=License
+
+[pref]
+language=Langue
+glass=
+driveassoc=
+associations=
+autoassoc=Auto Associate New To Host
+dblclickset=Paramètres du double-clic
+configassoc=Paramètres des extensions
+configapps=Configuration des chemins d'accès aux applications associées
+configwin=Configuration d'une fenêtre gérée
+autoassoc=Associer automatiquement les nouvelles extensions à la machine hôte
+confedit=Editer le fichier de configuration .ini
+
+[sendto]
+reconvey=Retransettre
+linksfolder=Ouvrir le dossier de liens
+sendtofolder=Ouvrir le dosssier "Envoyer Vers"
+
+[messages]
+runfile=Voulez-vous ouvrir le fichier`nsélectionné dans l'application désirée?
+filenotassociated=$extension files ne sont pas reconnues par eXpresso.`nVoules-vous créer une association pour celles-ci ?`n(Déconseillé pour les fichiers exe et com)
+
+[shared]
+btnbrowse=...
+btnOK=OK
+btnquit=Fermer
+alltypes=Tous les types de fichiers
+typeapp=Application
+extexists=$extension files sont déjà configurées!`nVoulez-vous chenger les associations?
+assocboxtitle=eXpresso | Choisir l'application qui ouvrira $extension files
+appnotfound=Le programme $prog`nqui doit ouvrir $extension files n'a pas pu être trouvé.`nVoulez-vous mettre à jour l'association?
+filenotfound=Le fichier spécifié, $file, ne peut être trouvé.
+
+[dblclickgui]
+labelfast=Rapide
+labelslow=Lent
+buttontest=Ce bouton`nvous permet`nde tester la sensitivité`nà la vitesse choisie`nen double-cliquant dessus
+oneclicktt=Clic :`n- Temps écoulé : $deltaClickms`n- Temps autorisé : $speedms
+dblclicktt=Double-clic!
+labelvalidate=Valider
+labelcancel=Annuler
+dblclicktitlegui=eXpresso | Paramètres du double-click
+textdc=Double-Clic
+
+[extgui]
+extguispltext=Création de la liste des extensions en cours...
+boxadd=Ajouter une association
+textadd=Pouvez utiliser soit le... bouton pour trouver un fichiers avec l'extension désirée, ou vous pouvez taper l'extension désirée, commençant par le point.
+btnassoc=Associer
+boxapps=Applications associées
+boxmain=Application Principale
+boxsecondary=Application Alernative
+textassoc=Pour utiliser une application installée localement, taper host dans le champ. Vous devrez cliquer sur OK pour que l'association soit enregistrée.
+boxext=Liste des extensions
+delext=Supprimer l'extension
+delassoc=Supprimer l'association
+exttitlegui=eXpresso | Configuration des associations d'extensions
+titleselectfile=eXpresso | Sélectionner un fichier à associer
+errorext=Erreur pendant l'ajout de l'extension
+nofile=Aucun fichier sélectionné pour l'association
+noext=Le fichier sélectionné n'a pas d'extension.`nContinuer tout de même?
+noapp=Sélectionner une application avant`nd'essayer de créer cette association.
+nullType=*Pas d'extensions
+
+[appgui]
+appguispltext=Création de la liste des applications en cours...
+boxapps=Applications associées
+lblabspath=Chemin absolu:
+lblrelpath=Chemin relatif:
+apptitlegui=eXpresso | Configuration des chemins des applications
+titleselectapp=eXpresso | Sélectionner une application pour cette association
+spashchgmnt=Modification du chemin en cours...
+splashfin=Terminé!
+boxappspath=Chemin de l'application sélectionnée
+howto=Pour changer le chemin d'une application associée, cliquez sur le nom de l'application dans la cadre à gauche, puis cliquez... pour rechercher le nouveau chemin. Clicquez sur OK pour enregistrer le nouveau chemin.
+
+[wingui]
+wintitlegui=eXpresso | Configuration des fenêtres gérées
+lblwinclass=Ahk_class:
+delmanagedwin=Supprimer cette fenêtre gérée
+boxwins=Fenêtres gérées
+boxwinsclass=Classe Autohotkey de la fenêtre gérée
+noclass=Pas de classe sélectionnée!
+alreadymanaged=La fenêtre $window est déjà gérée!
+helpout=Pour ajouter une autre fenêtre afin qu'eXpresso la gère, appuyer sur Shift + Windows et cliquer sur la barre de titre de la fenêtre, ou si vous connaissez déjà la classe Autohotkey (ahk_class), vous pouvez ajouter de multiples fenêtres en tapant le nom de classe complet, suivi de | .`n`nCliquez OK pour appliquer les changements.
+
+[rungui]
+runtitlegui=eXpresso | Exécuter
+txtrun=Lancer
+txtalt=Lancement alternatif
+ddoptions=Garder au-dessus|Me réduire après exécution|Me fermer après exécution
+keywordprompt=Entrer un mot-clé pour $app
+keywordtitle=eXpresso | Mot-clé
+runfiletitle=eXpresso | Sélectionner la fichier à ouvrir
+makekeyword=Créer un mot-clé
+nofile=Aucun fichier à ouvrir sélectionné
